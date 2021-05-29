@@ -11,6 +11,8 @@ var slingShot;
 var polygon_img;
 function preload(){
   polygon_img=loadImage("polygon.png");
+  
+  blockImg = loadImage("block.png");
 }
 function setup() {
   createCanvas(900,400);
