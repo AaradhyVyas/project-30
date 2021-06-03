@@ -16,7 +16,7 @@ class Block{
       var angle= this.body.angle;
       var pos= this.body.position;
       push();
-      this.Visibility = this.Visibility=225;
+      this.Visibility = this.Visibility=-5;
       translate(pos.x, pos.y);
       rotate(angle);
       rectMode(CENTER);
